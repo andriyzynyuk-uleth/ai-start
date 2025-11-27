@@ -49,6 +49,10 @@ footer {
 /* buttons */
 /* -------------- */
 
+.title h1, .funding h3, .logos img {
+    cursor: pointer;
+}
+
 .options {
     text-align: right;
 }
@@ -59,6 +63,11 @@ footer {
     border: 2px solid var(--blue);
     color: var(--blue);
     transition: background-color 0.3s;
+}
+
+.button:hover, .button.active {
+    background-color: var(--blue);
+    color:white;
 }
 
 /* -------------- */
